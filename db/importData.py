@@ -1,7 +1,7 @@
 import sys
 import json
 from db.users import create_user, get_user_by_username
-from db.usersFollowingList import add_following
+from db.usersFollowingList import add_following_batch
 
 def process_user_data(json_data):
     """
