@@ -3,7 +3,7 @@
 A localized personal web tool for preserving your TikTok Community!
 
 ###### Scrapes your TikTok following list for linktree links and exports them into different file formats.
-- Aimed to allow users to take their current following list and have a resource to where they can find the community they have built on TikTok so far on other apps in preparation for the impeding (TikTok Ban)[https://en.wikipedia.org/wiki/Restrictions_on_TikTok_in_the_United_States]
+- Aimed to allow users to take their current following list and have a resource to where they can find the community they have built on TikTok so far on other apps in preparation for the impeding [TikTok Ban](https://en.wikipedia.org/wiki/Restrictions_on_TikTok_in_the_United_States)
 
 # More should be seen to come from this...
 
@@ -35,8 +35,7 @@ In order to make use of this application please follow these steps first:
 1. Go to tiktok.com and navigate to `More > Settings > Privacy`
 2. Under Privacy find: `Data > Download your data > Download TikTok data`
 3. Select All Data and JSON. 
-4. Download the .zip file and have the unzipped contents handy for use when running this tool.
-    a. the unzipped contents should be a `.json` file
+4. Download the .zip file and have the unzipped contents handy for use when running this tool. the unzipped contents should be a `.json` file
 
 ## Setup Steps (Linux) 
 1. Run `python3 -m venv .` if this is a fresh clone
