@@ -27,6 +27,8 @@ share/python-wheels/
 MANIFEST
 db/app.db
 
+./include/
+
 pyvenv.cfg
 
 # PyInstaller
