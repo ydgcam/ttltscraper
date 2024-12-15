@@ -5,13 +5,13 @@ A localized personal web tool for preserving your TikTok Community!
 ###### Scrapes your TikTok following list for linktree links and exports them into different file formats.
 - Aimed to allow users to take their current following list and have a resource to where they can find the community they have built on TikTok so far on other apps in preparation for the impeding [TikTok Ban](https://en.wikipedia.org/wiki/Restrictions_on_TikTok_in_the_United_States)
 
-##### More should be seen to come from this...
+## More should be seen to come from this...
 
-###### Support Me! 
+#### Support Me! 
 
-If you'd like to join the effort to make this a more useful tool. Contact Me!
-    - Discord: ydgcam
-    - Email me: cadenceann817@gmail.com
+##### If you'd like to join the effort to make this a more useful tool. Contact Me!
+1. Discord: ydgcam
+2. Email me: cadenceann817@gmail.com
 
 ## Ideas I currently have for the future:
 
