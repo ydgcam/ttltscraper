@@ -37,12 +37,16 @@ def get_user_by_username(name: str):
     connection = get_connection()
 
     cursor = connection.cursor()
-    cursor.execute('SELECT * FROM users WHERE users.username = ?', name)
-    user = cursor.fetchall()
+    
+    # Include wildcards in the parameter value
+    cursor.execute('SELECT * FROM users WHERE users.username LIKE ?', (f"%{name}%",))
+    
+    user = cursor.fetchone()  # Assuming you expect a single user
 
     connection.close()
 
-    return dict(user)
+    # Return None if no user is found
+    return dict(user) if user else None
 
 def delete_user(user_id):
     connection = get_connection()

@@ -62,7 +62,6 @@ def process_user_data(json_data):
         else:
             print(f"No valid followings to add for user '{username}'.")
 
-
     except Exception as e:
         print(f"Error processing user data: {e}")
 
