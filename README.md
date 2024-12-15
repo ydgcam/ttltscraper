@@ -19,7 +19,7 @@ A localized personal web tool for preserving your TikTok Community!
 app on other platforms using the APIs of the apps involved 
 
 2. Hosting this on a publically accessible IP to utilize this as a web based tool. 
-    a. Oauth authentication service that will allow users to sign in through TikTok as the primary way to be able to interact with the app and consume all of it's features.
+    1. Oauth authentication service that will allow users to sign in through TikTok as the primary way to be able to interact with the app and consume all of it's features.
 
 # Supoprted OS environments:
 1. Linux: (I'm using Ubuntu 24.04.1 LTS)
