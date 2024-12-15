@@ -3,7 +3,7 @@ import sqlite3
 def create_database():
     print("Starting database initialization...")
 
-    connection = sqlite3.connect('app.db')  # Connects or creates the database
+    connection = sqlite3.connect('./db/app.db')  # Connects or creates the database
     connection.execute("PRAGMA foreign_keys = ON;")  # Enable foreign key support
     cursor = connection.cursor()
 

@@ -1,6 +1,6 @@
 import sqlite3
 
-DATABASE = "app.db"
+DATABASE = "./db/app.db"
 
 def get_connection():
     """Get a connection to the SQLite database."""
