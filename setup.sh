@@ -7,5 +7,5 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 
 # DB setup ~!
-mkdir db
-touch ./db/app.db
+python3 ./db/initDb.py #initializes all tables!
+python3 ./db/importData.py 
