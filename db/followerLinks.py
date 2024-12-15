@@ -1,4 +1,4 @@
-from db.connection import get_connection
+from connection import get_connection
 
 
 # Create a new follower link

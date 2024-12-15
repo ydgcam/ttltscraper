@@ -1,4 +1,4 @@
-from db.connection import get_connection
+from connection import get_connection
 
 def add_following(followed_by_id, username, followed_date=None):
     connection = get_connection()
